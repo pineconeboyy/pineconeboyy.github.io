@@ -1,0 +1,1028 @@
+
+html {
+    box-sizing: border-box;
+    background-image: url(num.gif);
+}
+    
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+    
+* {
+    margin: 0px 0px 0px 0px;
+    padding: 0px;
+}
+
+#banner {
+    background-color: rgba(0, 0, 0, 50%);
+    border: solid;
+    border-width: 1px;
+    border-color: rgb(126, 126, 126);
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3.5%;
+    margin-bottom: auto;
+}
+
+#banner h1 {
+    font-family: 'Secular One', sans-serif;
+    font-family: 'Silkscreen', cursive;
+    color: rgb(98, 98, 98);
+}
+
+#banner h1:hover {
+    color: rgb(178, 114, 194);
+}
+
+p {
+    font-family: 'Secular One', sans-serif;
+    font-family: 'Silkscreen', cursive;
+    color: rgb(98, 98, 98);
+}
+
+#maindeal {
+    background-color: rgba(0, 0, 0, 50%);
+    fill-opacity: 50%;
+    display: flex;
+    width: 1100px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#menu, #droplist {
+    border: solid;
+    border-color: rgb(126, 126, 126);
+    border-width: 1px;
+    border-right: none;
+    border-top: none;
+    flex-basis: 200px;
+    padding: 30px 10px 30px 10px;
+}
+
+#menu a, #droplist a {
+    display: block;
+    text-decoration: none;
+    color: rgb(98, 98, 98);
+    font-size: 18px;
+    font-family: 'Secular One', sans-serif;
+    font-family: 'Silkscreen', cursive;
+    padding: 10px 0px 10px 0px;
+}
+
+#menu a:hover, #droplist a:hover {
+    color: rgb(178, 114, 194);
+}
+
+#menu li:hover, #droplist li:hover {
+    border-color: rgb(178, 114, 194);
+}
+
+#menu li, #droplist li {
+    border: solid;
+    border-color: rgb(126, 126, 126);
+    border-width: 1px;
+    margin: 50px 0px 50px 0px;
+    text-align: center;
+}
+
+#menu ul {
+    margin-left: 0px;
+}
+
+#menu ul, #droplist ul {
+    list-style: none;
+}
+
+#droplist, #dropmenu {
+    display: none;
+}
+
+
+#content {
+    flex-basis: 600px;
+    flex-grow: 1;
+    float: right;
+    border: solid;
+    border-color: rgb(126, 126, 126);
+    border-width: 1px;
+    border-top: none;
+    padding: 40px;
+}
+
+#content p {
+    text-align: center;
+    color: rgb(98, 98, 98);
+    font-size: 20px;
+    padding: 40px;
+    border: solid;
+    border-color: rgb(126, 126, 126);
+    border-width: 1px;
+}
+
+#content p:hover {
+    color: rgb(178, 114, 194);
+}
+
+#content img {
+    padding: 5px;
+    border: solid;
+    border-width: 1px;
+    border-color: rgb(126, 126, 126);
+
+}
+
+#content img:hover {
+    border-color: rgb(178, 114, 194);
+}
+
+#extrathings {
+    display: flex;
+    margin-top: 50px;
+    flex-grow: 0;
+    height: 250px;
+}
+
+#extrathings h1 {
+    font-family: 'Secular One', sans-serif;
+    font-family: 'Silkscreen', cursive;
+    text-align: center;
+    color: rgb(98, 98, 98);
+    border-bottom: solid;
+    border-width: 1px;
+    border-color: rgb(126, 126, 126);
+}
+
+#extrathings li {
+    list-style: none;
+    color: rgb(98, 98, 98);
+    text-align: center;
+    padding: 5px;
+    font-family: 'Secular One', sans-serif;
+    font-family: 'Silkscreen', cursive;
+}
+
+#updates {
+    overflow-y: scroll;
+    border: solid;
+    border-color: rgb(126, 126, 126);
+    border-width: 1px;
+    flex-basis: 40%;
+    flex-grow: 0;
+    flex-shrink: 0;
+    margin: 10px;
+    margin-right: 60px;
+}
+
+#updates li:hover {
+    color: rgb(178, 114, 194);
+}
+
+#updates h1:hover {
+    color: rgb(178, 114, 194);
+}
+
+#plans {
+    overflow-y: scroll;
+    border: solid;
+    border-color: rgb(126, 126, 126);
+    border-width: 1px;
+    flex-basis: 40%;
+    flex-grow: 0;
+    flex-shrink: 0;
+    margin: 10px;
+    margin-left: 60px;
+}
+
+#plans li {
+    text-align: left;
+}
+
+#plans li:hover {
+    color: rgb(178, 114, 194);
+}
+
+#plans h1:hover {
+    color: rgb(178, 114, 194);
+}
+
+#footer {
+    background-color: rgba(0, 0, 0, 50%);
+    border: solid;
+    border-width: 1px;
+    border-color: rgb(126, 126, 126);
+    width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 10.5px;
+}
+
+#footer p:hover {
+    color: rgb(178, 114, 194);
+}
+
+/* ------------------------------------------- ABOUT ME SPECIFIC THINGS */
+
+#picrew {
+    display: flex;
+    width: 250px;
+    flex-direction: column;
+}
+
+#picrew p {
+    flex-grow: 0;
+    font-size: 13px;
+    padding: 0px;
+    margin-top: 5px;
+    border: none;
+}
+
+#picrew a {
+    color: rgb(98, 98, 98);
+    text-decoration: none;
+}
+
+#picrew a:hover {
+    color: rgb(178, 114, 194);
+}
+
+#aboutme {
+    display: flex;
+    height: 275px;
+    flex-wrap: 1;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+#deets {
+    padding: 20px 0px 0px 0px;
+    flex-shrink: 0;
+}
+
+#deets p {
+    color: rgb(98, 98, 98);
+    text-align: left;
+    flex-grow: 1;
+    flex-basis: 250px;
+    font-size: 20px;
+    padding: 0px 0px 0px 20px;
+    border: none;
+}
+
+#likedislike {
+    display: flex;
+    flex-basis: 500px;
+    margin: 20px 0px 0px 0px;
+}
+
+#likedislike h1 {
+    color: rgb(98, 98, 98);
+    font-family: 'Secular One', sans-serif;
+    font-family: 'Silkscreen', cursive;
+    text-align: center;
+}
+
+#likedislike h1:hover {
+    color: rgb(178, 114, 194);
+}
+
+#likedislike p {
+    border: none;
+    padding: 10px 0px 0px 10px;
+    text-align: left;
+}
+
+#like {
+    flex-grow: 0;
+    flex-basis: 300px;
+}
+
+#other {
+    display: flex;
+    margin-left: 120px;
+}
+
+#socials { 
+    margin: 0px 0px 0px 50px;
+    height: auto;
+}
+
+#socials a {
+    color: rgb(98, 98, 98);
+    font-size: 15px;
+    text-decoration: none;
+}
+
+#socials a:hover {
+    color: rgb(178, 114, 194);
+}
+
+#socials p {
+    text-align: right;
+    margin: 0px 0px 10px 0px;
+}
+
+
+#cat {
+    flex-grow: 0;
+    margin-left: 10px;
+}
+
+/* ------------------------------------------- INTEREST SPECIFIC THINGS */
+
+#buttons {
+    display: flex;
+    overflow-x: scroll;
+    width: 775px;
+}
+
+button {
+    background-color: rgb(126, 126, 126);
+    padding: 10px 30px 10px 30px;
+    margin: 0px 13px 15px 13px;
+    font-size: 20px;
+    font-family: 'Secular One', sans-serif;
+    font-family: 'Silkscreen', cursive;
+    border: none;
+}
+
+button:hover {
+    background-color: rgb(178, 114, 194);
+}
+
+/* ------------------------------------ ANIME */
+
+#anime {
+    display: inline-block;
+    border: solid;
+    border-color: rgb(126, 126, 126);
+    padding: 10px;
+    border-width: 1px;
+}
+
+#anime h1 {
+    font-family: 'Secular One', sans-serif;
+    font-family: 'Silkscreen', cursive;
+    color: rgb(98, 98, 98);
+    text-align: center;
+    padding-bottom: 10px;
+    text-decoration-line: underline;
+}
+
+#anime li {
+    font-family: 'Secular One', sans-serif;
+    font-family: 'Silkscreen', cursive;
+    color: rgb(98, 98, 98);
+    list-style: none;
+    font-size: 18px;
+    margin: 20px 10px;
+}
+
+#anime li:hover {
+    color: rgb(178, 114, 194);
+}
+
+#anime .ratings {
+    float: right;
+}
+
+#animelist {
+    overflow-y: scroll;
+    height: 400px;
+}
+
+/* ------------------------------------ GAMES */
+
+#games {
+    display: inline-block;
+    border: solid;
+    border-color: rgb(126, 126, 126);
+    padding: 10px;
+    border-width: 1px;
+}
+
+#games h1 {
+    font-family: 'Secular One', sans-serif;
+    font-family: 'Silkscreen', cursive;
+    color: rgb(98, 98, 98);
+    padding-bottom: 10px;
+    text-align: center;
+    text-decoration-line: underline;
+}
+
+#games li {
+    font-family: 'Secular One', sans-serif;
+    font-family: 'Silkscreen', cursive;
+    color: rgb(98, 98, 98);
+    list-style: none;
+    font-size: 18px;
+    margin: 20px 10px;
+}
+
+#games li:hover {
+    color: rgb(178, 114, 194);
+}
+
+#games .ratings {
+    float: right;
+}
+
+#gameslist {
+    overflow-y: scroll;
+    height: 400px;
+}
+
+/* ------------------------------------ MOVIES */
+
+#movies {
+    display: inline-block;
+    border: solid;
+    border-color: rgb(126, 126, 126);
+    padding: 10px;
+    border-width: 1px;
+}
+
+#movies h1 {
+    font-family: 'Secular One', sans-serif;
+    font-family: 'Silkscreen', cursive;
+    color: rgb(98, 98, 98);
+    padding-bottom: 10px;
+    text-align: center;
+    text-decoration-line: underline;
+}
+
+#movies li {
+    font-family: 'Secular One', sans-serif;
+    font-family: 'Silkscreen', cursive;
+    color: rgb(98, 98, 98);
+    list-style: none;
+    font-size: 18px;
+    margin: 20px 10px;
+}
+
+#movies li:hover {
+    color: rgb(178, 114, 194);
+}
+
+#movies .ratings {
+    float: right;
+}
+
+#movieslist {
+    overflow-y: scroll;
+    height: 400px;
+}
+
+/* ------------------------------------ MUSIC */
+
+#music {
+    display: inline-block;
+    border: solid;
+    border-color: rgb(126, 126, 126);
+    padding: 10px;
+    border-width: 1px;
+}
+
+#music h1 {
+    font-family: 'Secular One', sans-serif;
+    font-family: 'Silkscreen', cursive;
+    color: rgb(98, 98, 98);
+    padding-bottom: 10px;
+    text-align: center;
+    text-decoration-line: underline;
+}
+
+#music li {
+    font-family: 'Secular One', sans-serif;
+    font-family: 'Silkscreen', cursive;
+    color: rgb(98, 98, 98);
+    list-style: none;
+    font-size: 18px;
+    margin: 20px 10px;
+}
+
+#music li:hover {
+    color: rgb(178, 114, 194);
+}
+
+#music .ratings {
+    float: right;
+}
+
+#musiclist {
+    overflow-y: scroll;
+    height: 400px;
+}
+
+/* ------------------------------------ SHOWS */
+
+#shows {
+    display: inline-block;
+    border: solid;
+    border-color: rgb(126, 126, 126);
+    padding: 10px;
+    border-width: 1px;
+}
+
+#shows h1 {
+    font-family: 'Secular One', sans-serif;
+    font-family: 'Silkscreen', cursive;
+    color: rgb(98, 98, 98);
+    padding-bottom: 10px;
+    text-align: center;
+    text-decoration-line: underline;
+}
+
+#shows li {
+    font-family: 'Secular One', sans-serif;
+    font-family: 'Silkscreen', cursive;
+    color: rgb(98, 98, 98);
+    list-style: none;
+    font-size: 18px;
+    margin: 20px 10px;
+}
+
+#shows li:hover {
+    color: rgb(178, 114, 194);
+}
+
+#shows .ratings {
+    float: right;
+}
+
+#showslist {
+    overflow-y: scroll;
+    height: 400px;
+}
+
+/* ------------------------------------------- ART SPECIFIC THINGS */
+
+h2 {
+    font-family: 'Secular One', sans-serif;
+    font-family: 'Silkscreen', cursive;
+    color: rgb(98, 98, 98);
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+h2:hover {
+    color: rgb(178, 114, 194);
+}
+
+#arts img {
+    margin: 0px 5px 5px 0px;
+    width: auto;
+    height: 225px;
+    float: center;
+}
+
+/* ------------------------------------------- OC SPECIFIC THINGS */
+
+#oclist {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    width: 775px;
+
+}
+
+.sheet {
+    display: flex;
+    width: 800px;
+    margin-top: 20px;
+}
+
+#content .sheet p {
+    color: rgb(98, 98, 98);
+    font-size: 15px;
+    text-align: left;
+    padding: 0px;
+    margin: 0px;
+    border: none;
+    border-width: 1px;
+}
+
+.picture {
+    height: 400px;
+    width: 240px;
+    flex-shrink: 1;
+}
+ #content .picture img {
+    padding: 5px;
+    border: solid;
+    border-width: 1px;
+    border-color: rgb(126, 126, 126);
+ }
+
+.basic {
+    height: 45%;
+    width: 560px;
+}
+
+hr {
+    background-color: rgb(126, 126, 126);
+    width: 400px;
+    margin-left: 60px;
+}
+
+
+.blurb {
+    height: 55%;
+    width: auto;
+    padding: 20px 10px 0px 20px;
+}
+
+.sheet h2 {
+    padding: 5px 0px 0px 20px;
+}
+
+.sheet ul {
+    padding-left: 50px;
+}
+
+.sheet li {
+    font-family: 'Secular One', sans-serif;
+    font-family: 'Silkscreen', cursive;
+    color: rgb(98, 98, 98);
+    padding: 4px 0px 0px 0px;
+}
+
+#content .sheet img:hover {
+    border-color: rgb(178, 114, 194);
+}
+
+.sheet li:hover {
+    color: rgb(178, 114, 194);
+}
+
+.sheet hr:hover {
+    color: rgb(178, 114, 194);
+}
+
+#content .sheet p:hover {
+    color: rgb(178, 114, 194);
+}
+
+/*    PHONE STYLES ========================================*/
+@media only screen and (max-width: 480px) {
+
+#wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+#banner {
+    max-width: 320px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 25px;
+}
+
+#maindeal {
+    flex-direction: column;
+    flex-shrink: 1;
+    max-width: 320px;
+    height: auto;
+}
+
+#menu {
+    display: none;
+}
+
+details summary {
+    font-family: 'Secular One', sans-serif;
+    font-family: 'Silkscreen', cursive;
+    color: rgb(98, 98, 98);
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+    border: solid;
+    border-color: rgb(126, 126, 126);
+    border-width: 1px;
+}
+
+#dropmenu {
+    display: block;
+}
+
+#droplist {
+    display: block;
+    position: absolute;
+    width: 320px;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    z-index: 10;
+}
+
+#droplist a {
+    color: black;
+}
+
+#droplist li {
+    margin: 0px 0px 0px 0px;
+    padding: 5px 0px 5px 0px;
+    background-color: rgba(98, 98, 98, 0.879);
+    border-color: black;
+}
+
+#content {
+    max-width: 320px;
+    flex-shrink: 1;
+    flex-grow: 1;
+    padding: 10px 10px 0px 10px;
+}
+
+#content p {
+    font-size: 15px;
+}
+
+#extrathings p {
+    font-size: 15px;
+}
+
+#extrathings h1 {
+    font-size: 20px;
+}
+
+#extrathings li {
+    font-size: 15px;
+}
+
+#updates {
+    margin-right: 20px;
+    overflow-x: hidden;
+}
+
+#plans {
+    margin-left: 20px;
+}
+
+#footer {
+    max-width: 320px;
+    height: auto;
+}
+
+/*--------------------------------------------*/
+#aboutme {
+flex-direction: column;
+}
+
+#deets {
+    width: 310px;
+    margin: 0px 1px 0px 0px;
+    padding-top: 5px;
+}
+
+#picrew {
+    margin: 20px 40px 0px 40px;
+}
+
+#picrew p {
+    width: 200px;
+    font-size: 15px;
+}
+
+#picrew img {
+    height: auto;
+    width: 200px;
+    margin: 0px 0px 0px 10px;
+}
+
+#deets {
+    margin-top: 10px;
+}
+
+#deets p {
+    padding: 0px 0px 0px 0px;
+}
+
+#likedislike {
+    flex-shrink: 1;
+    margin-top: 90px;
+    overflow-y: scroll;
+    width: 300px;
+}
+
+#like {
+    margin-right: 20px;
+}
+
+#like h1 {
+    width: 120px;
+}
+
+#like p {
+    padding-left: 0px;
+    width: 135px;
+}
+
+#socials {
+    margin-left: 10px;
+}
+
+#other {
+    margin-left: 10px;
+    width: 235px;
+}
+
+#cat {
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+#cat img {
+    width: 100px;
+    height: auto;
+}
+
+/*--------------------------------------------*/
+
+#buttons {
+    margin-top: 10px;
+    overflow-x: scroll;
+    width: auto;
+}
+
+#buttons button {
+    font-size: 15px;
+}
+
+#anime h1 {
+    font-size: 20px;
+}
+
+#animelist {
+    white-space: nowrap;
+    overflow-x: scroll;
+    height: 450px;
+}
+
+#animelist li {
+    width: 500px;
+    font-size: 15px;
+}
+
+#games h1 {
+    font-size: 20px;
+}
+
+#gameslist {
+    white-space: nowrap;
+    overflow-x: scroll;
+    height: 450px;
+}
+
+#gameslist li {
+    width: 450px;
+    font-size: 15px;
+}
+
+#movies h1 {
+    font-size: 20px;
+}
+
+#movieslist {
+    white-space: nowrap;
+    overflow-x: scroll;
+    height: 450px;
+}
+
+#movieslist li {
+    width: 450px;
+    font-size: 15px;
+}
+
+#music h1 {
+    font-size: 20px;
+}
+
+#musiclist {
+    white-space: nowrap;
+    overflow-x: scroll;
+    height: 450px;
+}
+
+#musiclist li {
+    width: 450px;
+    font-size: 15px;
+}
+
+#shows h1 {
+    font-size: 20px;
+}
+
+#showslist {
+    white-space: nowrap;
+    overflow-x: scroll;
+    height: 450px;
+}
+
+#showslist li {
+    width: 450px;
+    font-size: 15px;
+}
+
+/*--------------------------------------------*/
+
+#arts {
+   width: 300px; 
+}
+
+#arts img {
+    margin: 0px 5px 5px 0px;
+    width: auto;
+    height: 120px;
+    white-space: wrap;
+}
+
+#arts h2 {
+    font-size: 20px;
+}
+
+/*--------------------------------------------*/
+
+#oclist {
+    margin-top: 10px;
+    overflow-x: scroll;
+    width: auto;
+}
+
+.sheet {
+    flex-direction: column;
+    position: relative;
+    width: 300px;
+}
+
+.picture img {
+    width: 127.5px;
+    height: 212.25px;
+}
+
+.picture {
+
+    width: 127.5px;
+    height: 212.25px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 300px;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    width: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.basic {
+    bottom: 0;
+    width: 300px;
+    height: 220px;
+    padding-top: 30px;
+    margin-bottom: 25px;
+}
+
+.basic li {
+    font-size: 15px;
+}
+
+.basic h2 {
+    font-size: 20px;
+    padding-left: 5px;
+}
+
+.basic ul {
+    padding-left: 15px;
+}
+
+.blurb {
+    overflow-y: scroll;
+    overflow-x: scroll;
+    height: 250px;
+    width: 270px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    flex-shrink: 1;
+}
+
+.blurb p {
+    font-size: 15px;
+    text-align: right;
+}
+
+
+}
+  /*END PHONE STYLES ========================================*/
